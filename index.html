@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="mt-2 text-info bg-dark"><span>BIENVENIDO A LA 3ra PRE ENNTREGA</span></h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Calculadora de Viajes</h2>
+        <form>
+            <label for="services">Selecciona un servicio:</label>
+            <select id="services" required>
+                <option value="" disabled selected>Elige un servicio</option>
+            </select>
+
+            <label for="distancia">Kilómetros a recorrer:</label>
+            <input type="number" id="distancia" required>
+
+            <button type="button" id="calcularBtn">Calcular Viaje</button>
+            <div id="alerta"></div>
+        </form>
+        <div id="resultContainer"></div>
+    </main>
+
+    <footer>
+        <button id="btnHistorial">Historial</button>
+        <div id="historialContainer"></div>
+    </footer>
+
+
+
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- mi js -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
