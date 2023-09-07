@@ -4,7 +4,7 @@ const servicios = [
     { id: 2, nombre: "Trigo", precio: 2900 },
     { id: 3, nombre: "Girasol", precio: 2800 },
     { id: 4, nombre: "Maíz", precio: 2850 },
-    { id: 5, nombre: "Vovinos", precio: 3200 },
+    { id: 5, nombre: "Bovinos", precio: 3200 },
     { id: 6, nombre: "Flete", precio: 2500 },
 ];
 const servicesSelect = document.querySelector("#services"),
