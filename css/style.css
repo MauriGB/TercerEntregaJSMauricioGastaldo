@@ -2,36 +2,17 @@
 
 * {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    height: 100%;
 }
 h1, span{
     text-align: center;
     font-size: x-large;
     
 }
-/* h3 {
-    color: #333;
-}
-
-#buscador{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-.service-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    width: 200px;
-    text-align: center;
-}
-
-.service-card:hover {
-    background-color: #f0f0f0;
-} */
-
 
 form {
     max-width: 400px;
@@ -54,20 +35,39 @@ select, input, button {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+#calcularBtn{
+    background-color: hsl(277, 35%, 68%);
+    border:1px solid #696969;
+}
+#calcularBtn:hover{
+    background-color: hsl(276, 26%, 61%);
+}
 
-#resultContainer {
+#resultContainer, #hisotrialContainer{
     max-width: 400px;
     margin: 20px auto;
     padding: 10px;
     border: 1px solid #333;
     border-radius: 5px;
     display: none;
+    
 }
 
 #resultContainer h2 {
     color: #333;
     margin-bottom: 10px;
 }
-.btnHistorial {
-    width: 50px;
+#btnHistorial, #borrarHistorial{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#hisotrialContainer {
+    display: block;
+}
+.hcss{
+    margin: 20px 20px;
+max-width: 400px;
+padding: 10px;
+font-size: medium;
 }
